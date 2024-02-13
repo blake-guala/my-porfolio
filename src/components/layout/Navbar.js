@@ -1,8 +1,10 @@
 import React from 'react'
 
 export const Navbar = () => {
+
+
   return (
-    <nav className='nav-custom'>
+    <nav className='nav-custom ' >
         <h3 className='header'>Iheama</h3>
         <ul className='ul-custom'>
           <li className='li-custom'>
@@ -15,7 +17,7 @@ export const Navbar = () => {
             <a  href="!#">Contact</a>
           </li>
           <li className='li-custom hire'>
-            <a  href="!#">hire me</a>
+            <a   href="!#">Hire me <i className="fas fa-angle-double-right" style={{ fontSize: '0.6rem',fontWeight: 'bolder' }}></i></a>
           </li>
         </ul>
     </nav>

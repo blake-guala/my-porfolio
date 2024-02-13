@@ -2,7 +2,8 @@ import React from 'react'
 
 export const Services = () => {
   return (
-    <div>
+    <div  className='section-top'>
+      <section>
       Lorem ipsum dolor, sit amet 
       consectetur adipisicing elit. Sequi ad ut ratione saepe est id explicabo. Reiciendis tempore verita
       tis atque, dolores cum labore quo! Animi nostrum soluta quo quidem nisi!
@@ -46,7 +47,27 @@ export const Services = () => {
       Cumque dolorum modi cum ullam culpa consectetur, praesentium libero quod ad provident quos velit, voluptate nemo, iure numquam! Explicabo quas delectus nostrum ipsa vitae aspernatur odit! Fugit adipisci vero iste!
       Facere dolorum odio labore laborum quae! Animi unde minus quia, expedita suscipit accusamus corrupti autem at alias tenetur ex quis eaque eos sunt exercitationem ea explicabo veniam cupiditate voluptas. Deserunt.
       Aliquid impedit ipsa doloribus adipisci! Perferendis explicabo minima officiis dignissimos libero eum iusto! Nobis, minus ducimus architecto iusto nihil nemo soluta vel. Tempora unde cumque officia, eum id nostrum modi!
-
+      </section>
+      <section>
+      Lorem ipsum dolor, sit amet 
+      consectetur adipisicing elit. Sequi ad ut ratione saepe est id explicabo. Reiciendis tempore verita
+      tis atque, dolores cum labore quo! Animi nostrum soluta quo quidem nisi!
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem nostrum, deserunt eius aspernatur, officia blanditiis amet quidem, obcaecati architecto nam beatae sequi eaque? Ex, velit dicta est odio possimus nihil.
+      Vero enim corrupti harum delectus veniam esse dolore impedit soluta. Consectetur iste natus unde cum doloribus eum eligendi eius minus dignissimos. Aut vitae minima eius inventore voluptatum assumenda accusantium corporis.
+      Dolores neque sed ad possimus modi porro provident perferendis nisi minus ea maiores recusandae, tenetur accusamus maxime repellat necessitatibus voluptatibus quod, omnis at ut vero quia eligendi? Voluptates, voluptatem dignissimos.
+      Esse deserunt repellat ratione, molestiae eius optio possimus illo iusto facere blanditiis, omnis rem error tempore beatae eaque nisi aut aliquam repellendus, aspernatur totam suscipit. Minima fuga voluptatem in possimus.
+      Eius veniam mollitia error magnam sequi nulla voluptate iste autem officiis possimus laborum consequatur, aut facilis corporis ab tempore asperiores quo ducimus quam quis vitae unde assumenda quae id! Molestias!
+      Velit, error? Fuga obcaecati, impedit sequi dolor ullam quos architecto alias nisi nam assumenda vel exercitationem fugiat excepturi dolores id! Placeat dolore ullam impedit laudantium rerum illum modi eius ex.
+      Quia numquam voluptate sint possimus quis nihil ipsam deleniti aut! Ut praesentium error suscipit consectetur officiis aut. Iusto, accusantium placeat? Beatae atque ipsa inventore dolor et nulla itaque ducimus totam!
+      Necessitatibus culpa quod tempore. Minus libero eveniet commodi praesentium veniam? Alias laudantium expedita veritatis! Nulla deleniti sit vel ipsam nisi excepturi maxime quas rem iusto? Ab fugit vel sunt! Architecto!
+      Quisquam iure nulla fuga cum praesentium ipsum pariatur consequuntur temporibus accusamus, ratione modi autem corporis corrupti, amet laudantium perferendis nam nihil, ducimus odio ab! Doloribus, vitae. In consectetur quo incidunt.
+      Tempora tempore ratione tenetur. Illo in velit perferendis quod nisi doloribus, ad, earum quidem rerum fuga fugiat modi iusto dignissimos minima nesciunt error cum quibusdam, impedit adipisci! Laboriosam, perspiciatis quasi.
+      Ratione ex ipsa facilis. Repellat tempora tenetur eligendi vero nam at exercitationem repudiandae corporis earum omnis quasi, tempore, deserunt, mollitia dolore aliquam! Suscipit eaque dolorem consequuntur odit reiciendis, officiis modi.
+      Voluptate iure deleniti animi tempora amet vel, similique ipsam debitis, atque qui eveniet impedit, voluptatem natus provident sint quas. Distinctio impedit mollitia adipisci excepturi officiis quibusdam, numquam repellat architecto. Blanditiis.
+      Debitis perferendis quidem, facere ullam velit nulla dicta tempore magni placeat repudiandae error consectetur corrupti quibusdam maiores, quis eius veritatis explicabo? Nemo vero in blanditiis repellendus pariatur quidem, excepturi omnis.
+      Voluptate molestiae quas possimus fuga. Autem maiores obcaecati iure neque, voluptatem eum alias earum sunt facilis quia quod, veritatis maxime asperiores quaerat aperiam eius, tempore expedita explicabo? Delectus, quaerat ea.
+      Id earum animi excepturi eo
+      </section>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 body {
   background: 	#121111;
+  font-family: sans-serif;
   color: whitesmoke;
 }
 
@@ -9,37 +10,62 @@ ul {
   padding: 1.8rem;
 }
 
+
 .li-custom {
   display: inline;
   margin: 2rem;
 }
 
+.fixed-page-trigger {
+  position: absolute;
+  top: 0;
+  margin-top: 110vh;
+}
+
+.section-top {
+  margin-top: 6rem;
+}
+
+
 .nav-custom {
-  background-color:#000000;
+  background-color:	#121111;
   height: 5rem;
   position: fixed;
   width: 100%;
   top: 0;
+  transition: all 500ms ease;
 }
+
 
 .li-custom a {
   text-decoration: none;
-  color: white;
+  color: gray;
 }
 
 .li-custom a:hover {
-  background-color: grey;
+  color: whitesmoke;
 }
+
+.li-custom.hire:hover {
+  background:  	#222222;
+}
+.li-custom.hire a {
+  color: white;
+}
+
 
 .header {
   float: left;
   display: inline;
   padding: 1.6rem;
+  color: grey;
 }
 .hire {
-  border-style: inset;
+  border-style: outset;
+  color: whitesmoke;
   padding: 0.6rem;
   text-align: center;
-  border-radius: 0.9rem;
+  border-radius: 1.3rem;
+  border-width: 0.1rem;
   border-color: grey;
 }
