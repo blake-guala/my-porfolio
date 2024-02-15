@@ -26,6 +26,7 @@ ul {
   height: 20rem;
   width: 100%;
   background-position: inherit;
+  box-shadow: 0 3px 10px rgba(172, 166, 166, 0.2);
 }
 
 .img {
@@ -117,6 +118,8 @@ ul {
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
+  box-shadow: 0 3px 10px rgba(172, 166, 166, 0.2);
+
 }
 
 .listed {
@@ -191,4 +194,21 @@ ul {
 
 .about {
   text-align: center;
+}
+
+.skill-icon {
+  width: 100%;
+  text-align: center;
+  margin: 2rem;
+}
+
+.skill-icon li {
+  display: inline;
+  padding: 0.5rem;
+  background-color: rgb(8, 8, 8);
+  padding: 0.5rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  margin: 1rem;
+  box-shadow: 0 3px 10px rgba(172, 166, 166, 0.2);
 }

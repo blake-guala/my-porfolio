@@ -72,13 +72,14 @@ export const Home = () => {
         </div>
         <section>
             <h3 className='about'>skills <i className="fa-solid fa-code"></i></h3>
-            <ul>
-                <li><i className="fab fa-js"></i></li>
-                <li><i className="fa-brands fa-github"></i></li>
-                <li><i className="fa-brands fa-react"></i></li>
-                <li><i className="fa-brands fa-bootstrap"></i></li>
+            <div className='skill-icon'>
                 <li><i className="fab fa-html5"></i></li>
-            </ul>
+                <li><i className="fab fa-css3"></i></li>
+                <li><i className="fa-brands fa-bootstrap"></i></li>
+                <li><i className="fab fa-js"></i></li>
+                <li><i className="fa-brands fa-react"></i></li>
+                <li><i className="fa-brands fa-square-github"></i></li>
+            </div>
         </section>
     </div>
   )
