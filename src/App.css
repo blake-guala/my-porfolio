@@ -111,14 +111,12 @@ ul {
   text-align: center;
   font-size: 3rem;
   color: whitesmoke;
-  background-color: #073a075b;
   border-radius: 2rem;
   text-align: center;
   width: 60%;
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
-  box-shadow: 0 3px 10px rgba(172, 166, 166, 0.2);
 
 }
 
@@ -179,6 +177,7 @@ ul {
 }
 .div-a a:hover {
   background-color: #0eac0e;
+  box-shadow: 0 3px 10px rgb(112, 110, 78);
 }
 
 .bottom {
@@ -200,6 +199,9 @@ ul {
   width: 100%;
   text-align: center;
   margin: 2rem;
+  vertical-align: middle;
+  margin-bottom: 4rem;
+
 }
 
 .skill-icon li {
@@ -211,4 +213,80 @@ ul {
   font-size: 2rem;
   margin: 1rem;
   box-shadow: 0 3px 10px rgba(172, 166, 166, 0.2);
+}
+
+.services {
+  margin-bottom: 1rem;
+}
+
+.unlisted {
+  width: 100%;
+}
+
+.unlisted li{
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.hire-me {
+  width: 100%;
+}
+.hire-me li {
+  margin: 1rem;
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgb(15, 14, 14);
+  width: 100%;
+  border-radius: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.hire-me li a{
+  text-decoration: none;
+  color: white;
+}
+.hire-me li:hover{
+  background-color: rgb(88, 86, 86);
+}
+
+
+
+.info {
+  margin: 0.5rem;
+  margin-top: 4rem;
+  width: 100%;
+  box-shadow: 0 3px 10px rgb(36, 7, 7);
+  border-radius: 0rem;
+  text-align: center;
+  height: 15rem;
+}
+
+.info-header {
+  text-decoration-line: underline;
+  padding-bottom: 1rem;
+  text-decoration-color: #00FF00;
+  text-decoration-thickness: 0.2rem;
+}
+
+.socials {
+  width: 100%;
+}
+
+.socials li {
+  display: inline;
+  text-align: center;
+  padding: 2rem;
+}
+
+.socials a  {
+  text-decoration: none;
+  color: gray;
+  font-size: 2rem;
+}
+.socials a:hover  {
+  color: whitesmoke;
+  font-size: 2.2rem;
 }
