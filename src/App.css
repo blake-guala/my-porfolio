@@ -1,6 +1,6 @@
 body {
   background: 	#000000;
-  font-family: sans-serif;
+  font-family: "Fredoka", sans-serif;
   color: whitesmoke;
 }
 
@@ -14,7 +14,9 @@ ul {
 .li-custom {
   display: inline;
   margin: 2rem;
+
 }
+
 
 
 
@@ -58,12 +60,13 @@ ul {
 
 .li-custom a {
   text-decoration: none;
-  color: whitesmoke;
+  color: white;
 }
 
 .li-custom a:hover {
-  color: whitesmoke;
+  color: rgb(24, 247, 4);
 }
+
 
 .li-custom.hire:hover {
   background:  	#222222;
@@ -121,14 +124,14 @@ ul {
 }
 
 .listed {
-  padding-left: 4rem;
-  padding-right: 4rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
 .section-box {
   /* border-style: inset; */
   padding: 1rem;
-  height: 15rem;
+  height: 18rem;
   box-shadow: 0 3px 10px rgba(172, 166, 166, 0.2);
   width: fit-content;
   border-radius: 2rem;
@@ -168,6 +171,7 @@ ul {
 }
 
 .div-a a{
+  margin-top: 1.8rem;
   text-decoration: none;
   float: right;
   background-color: #0b830b;
@@ -249,7 +253,9 @@ ul {
   color: white;
 }
 .hire-me li:hover{
-  background-color: rgb(88, 86, 86);
+  background-color: rgb(24, 24, 29);
+  box-shadow: 0 3px 10px rgb(24, 23, 23);
+
 }
 
 
@@ -259,8 +265,8 @@ ul {
   margin-top: 1rem;
   padding: 1rem;
   width: 100%;
-  box-shadow: 0 3px 10px rgb(27, 25, 25);
-  border-radius: 0rem;
+  box-shadow: 0 3px 10px rgb(24, 23, 23);
+  border-radius: 0.4rem;
   text-align: center;
   height: 15rem;
   background-color: 	#080808;
@@ -270,6 +276,7 @@ ul {
   text-decoration-line: underline;
   padding-bottom: 1rem;
   text-decoration-color: #00FF00;
+  text-shadow: 0 3px 10px rgb(2, 250, 77);
   text-decoration-thickness: 0.2rem;
 }
 
@@ -300,7 +307,7 @@ ul {
 .hire-resume {
   width: 100%;
   padding: 0;
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
 
 .hire-resume li {
@@ -325,8 +332,17 @@ ul {
 
 }
 
+.hired:hover  {
+  background-color: transparent;
+}
+
+.hired a:hover {
+  background-color: transparent;
+  color:  #03fd03;
+}
+
 .hired a {
-  color: black;
+  color: rgb(73, 73, 73);
 }
 
 .resume {
@@ -337,10 +353,52 @@ ul {
   border-width: 0.1rem;
   border-radius: 0.3rem;
   box-shadow: 0 3px 10px rgb(2, 250, 77);
-
-
 }
 
 .resume a{
-  color: rgb(2, 252, 2);
+  color: rgb(6, 150, 6);
+}
+.resume:hover{
+  background-color: rgb(2, 252, 2);
+
+}
+
+.resume  a:hover {
+  color: black;
+  
+}
+
+.form {
+  margin-top: 8rem;
+  height: 34rem;
+  padding: 3rem;
+  margin-bottom: 5rem;
+}
+
+.input-custom {
+  background-color: rgb(15, 15, 15);
+  height: 2rem;
+  width: 100%;
+  padding: 1rem;
+  border: #000000;
+}
+
+.input-custom:focus {
+  background-color: #000000;
+}
+
+.message {
+  height: 8rem;
+}
+
+.button-custom {
+  background-color: transparent;
+  border: #03fd03;
+  box-shadow: 0 3px 10px rgb(27, 49, 34);
+  text-align: right;
+}
+
+.button-custom:hover {
+  background-color: #02fa02;
+  box-shadow: 0 3px 10px rgb(2, 250, 77);
 }

@@ -8,8 +8,8 @@ export const Home = () => {
         <div className="row background">
             <section className="col-sm">
                 <h5>Hello there, <i className="fa-solid fa-hand-peace  fa-fade"></i></h5>
-                <h1> i am Iloham livingstone iheama.</h1>
-                <p className='green'> FRONT END DEVELOPER</p>
+                <h1> I am Iloham Livingstone Iheama.</h1>
+                <p className='green'>A FRONT END DEVELOPER.</p>
                 <div>
                     <ul className='hire-resume'>
                         <li className='hired'>
@@ -31,7 +31,7 @@ export const Home = () => {
         <div className='skills'>
         <section>
             <div className='div-projects'>
-            <h3 className='projects'> Projects </h3>
+            <h3 className='projects info-header'> Projects </h3>
             </div>
         </section>
         <div className='row '>
@@ -43,6 +43,7 @@ export const Home = () => {
                 {/* <div> */}
                     <ul className='listed'>
                     <h5 className='skill'>skills</h5>
+                        <li>Css <i className="fab fa-css3 fa-bounce"></i></li>
                         <li>React <i className="fa-brands fa-react fa-spin"></i></li>
                         <li>Nodejs <i className="fa-brands fa-node-js"></i></li>
                     </ul>
@@ -56,6 +57,7 @@ export const Home = () => {
                 <p>An app that searches for users in github</p>
                 <ul className='listed'>
                 <h5 className='skill'> skills used</h5>
+                    <li>Css <i className="fab fa-css3 fa-bounce"></i></li>
                     <li>React <i className="fa-brands fa-react fa-spin"></i></li>
                     <li>GithubApi <i className="fa-brands fa-github fa-flip"></i></li>
                 </ul>
@@ -71,7 +73,8 @@ export const Home = () => {
                 <p>An app used by IT depart to track changes made. has CRUD 
                     functionalities</p>
                 <ul className='listed'>
-                <h5 className='skill'> skills</h5>
+                <h5 className='skill '> skills</h5>
+                    <li>Css <i className="fab fa-css3 fa-bounce"></i></li>
                     <li>React <i className="fa-brands fa-react fa-spin"></i></li>
                     <li>JSON Server <i className="fa fa-file" ></i> <i className="fa-solid fa-server"></i></li>
                 </ul>
@@ -81,7 +84,7 @@ export const Home = () => {
         </div>
         </div>
         <div>
-            <h3 className='about'>skills <i className="fa-solid fa-code"></i></h3>
+            <h3 className='about info-header'>skills <i className="fa-solid fa-code"></i></h3>
             <div className='skill-icon'>
                 <li><i className="fab fa-html5 fa-fade"></i></li>
                 <li><i className="fab fa-css3 fa-bounce"></i></li>
@@ -92,21 +95,7 @@ export const Home = () => {
             </div>
         </div>
         <div>
-            <h2 className='projects services'>Services i provide</h2>
-        </div>
-        <div className=" section-box bottom">
-                <h3> Front-end {'() => {'} </h3>
-                <ul className='unlisted'>
-                    <li><i className="fas fa-angle-double-right"></i>  Html</li>
-                    <li><i className="fas fa-angle-double-right"></i> Css</li>
-                    <li><i className="fas fa-angle-double-right"></i> Bootstrap</li>
-                    <li><i className="fas fa-angle-double-right"></i> JavaScript</li>
-                    <li><i className="fas fa-angle-double-right"></i> React</li>
-                    <h3>{'}'}</h3>
-                </ul>
-        </div>
-        <div>
-            <h2 className='projects services'>Hire me.</h2>
+            <h2 className='projects services info-header'>Contact</h2>
         </div>
         <div className=" section-box bottom  info" >
             <ul className='hire-me'>
@@ -140,6 +129,26 @@ export const Home = () => {
                     <a href=""><i class="fa-brands fa-twitter"></i></a>
                 </li> */}
             </ul>
+        </div>
+        <div className=" section-box bottom info form " >
+            <h4 className='info-header'>Get in Touch</h4>
+            <form className='container form-custom' >
+            <hr />
+                <div className="mb-3">
+                    <label htmlFor="name" className="form-label">Name</label>
+                    <input type="text"  name='email' className="form-control input-custom"  placeholder='your name' />
+                </div>
+                <div className="mb-3">
+                    <label htmlFor="email" className="form-label">Email</label>
+                    <input type="email" name='password' className="form-control input-custom"  placeholder='your email' />
+                </div>
+                <div className="mb-3">
+                    <label htmlFor="password" className="form-label ">Message</label>
+                    <input type="password" name='password' className="form-control input-custom message" 
+                    placeholder='write your message...' />
+                </div>
+                <button type="submit " className="btn btn-primary button-custom button-custom ">Submit</button>
+            </form>
         </div>
         <hr />
         <footer className='footer'>
