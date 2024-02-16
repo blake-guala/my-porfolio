@@ -10,6 +10,16 @@ export const Home = () => {
                 <h5>Hello there, <i className="fa-solid fa-hand-peace  fa-fade"></i></h5>
                 <h1> i am Iloham livingstone iheama.</h1>
                 <p className='green'> FRONT END DEVELOPER</p>
+                <div>
+                    <ul className='hire-resume'>
+                        <li className='hired'>
+                            <a href="#!">Hire me</a>
+                        </li>
+                        <li className='resume'>
+                            <a href="#!">Resume</a>
+                        </li>
+                    </ul>
+                </div>
             </section>
             <section className="col-sm">
                 <img className='img' src={svg} alt="background" />
@@ -131,6 +141,11 @@ export const Home = () => {
                 </li> */}
             </ul>
         </div>
+        <hr />
+        <footer className='footer'>
+            <p>Copyright &copy; 2024 Iloham livingstone iheama</p>
+        </footer>
+        
     </div>
   )
 }
