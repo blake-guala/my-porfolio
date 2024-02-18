@@ -387,9 +387,11 @@ ul {
   background-color: #000000;
 }
 
-.message {
-  height: 8rem;
-}
+/* .message {
+  height: 6rem;
+  scrollbar-face-color:  rgb(37, 37, 37);
+  scrollbar-shadow-color: 0 3px 10px rgb(2, 250, 77);
+} */
 
 .button-custom {
   background-color: transparent;
@@ -401,4 +403,11 @@ ul {
 .button-custom:hover {
   background-color: #02fa02;
   box-shadow: 0 3px 10px rgb(2, 250, 77);
+}
+
+.form-custom input:focus {
+  color: rgb(194, 189, 189);
+}
+.form-custom input {
+  color: rgb(201, 193, 193);
 }

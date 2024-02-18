@@ -143,8 +143,8 @@ export const Home = () => {
                     <input type="email" name='password' className="form-control input-custom"  placeholder='your email' />
                 </div>
                 <div className="mb-3">
-                    <label htmlFor="password" className="form-label ">Message</label>
-                    <input type="password" name='password' className="form-control input-custom message" 
+                    <label htmlFor="message" className="form-label ">Message</label>
+                    <textarea type="text" name='password' className="form-control input-custom message" 
                     placeholder='write your message...' />
                 </div>
                 <button type="submit " className="btn btn-primary button-custom button-custom ">Submit</button>
