@@ -70,7 +70,7 @@ export const Home = () => {
         <div>
         <div className=" section-box bottom">
                 <h3>IT Logger App <i class="fa-solid fa-cog fa-spin"></i><i class="fa-solid fa-cog fa-spin fa-spin-reverse"></i></h3>
-                <p>An app used by IT depart to track changes made. has CRUD 
+                <p>An app used by IT department to track changes made. has CRUD 
                     functionalities</p>
                 <ul className='listed'>
                 <h5 className='skill '> skills</h5>
