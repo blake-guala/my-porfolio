@@ -387,11 +387,11 @@ ul {
   background-color: #000000;
 }
 
-/* .message {
+.message {
   height: 6rem;
   scrollbar-face-color:  rgb(37, 37, 37);
   scrollbar-shadow-color: 0 3px 10px rgb(2, 250, 77);
-} */
+}
 
 .button-custom {
   background-color: transparent;

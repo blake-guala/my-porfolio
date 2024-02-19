@@ -6,7 +6,6 @@ import { GetInTouch } from './pages/GetInTouch'
 import { Contact } from './pages/Contact'
 import { About } from './pages/About'
 import { Footer } from './pages/Footer'
-// import drip from './drip.svg'
 
 export const Home = () => {
   return (
