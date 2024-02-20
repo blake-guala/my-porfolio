@@ -1,0 +1,45 @@
+.header {
+    float: left;
+    display: inline;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    color: #00FF00;
+}
+
+.liCustom {
+    display: inline;
+    margin: 2rem;
+  }
+
+  .hire {
+    border-style: outset;
+    color: whitesmoke;
+    padding: 0.6rem 2rem 0.6rem 2rem ;
+    text-align: center;
+    border-radius: 1.3rem;
+    border-width: 0.1rem;
+    border-color: grey;
+  }
+
+.ul {
+    float: right;
+    list-style: none;
+    padding: 1.8rem;
+  }
+
+.liCustom a {
+  text-decoration: none;
+  color: white;
+}
+
+.liCustom a:hover {
+  color: rgb(24, 247, 4);
+}
+
+
+.liCustom.hire:hover {
+  background:  	#222222;
+}
+.liCustom.hire a {
+  color: white;
+}

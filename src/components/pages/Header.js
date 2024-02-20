@@ -1,5 +1,5 @@
 import React from 'react'
-import svg from './web.svg'
+import svg from '../images/web.svg'
 
 export const Header = () => {
   return (

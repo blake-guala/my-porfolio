@@ -4,24 +4,11 @@ body {
   color: whitesmoke;
 }
 
-ul {
-  float: right;
-  list-style: none;
-  padding: 1.8rem;
-}
-
-
-.li-custom {
-  display: inline;
-  margin: 2rem;
-
-}
-
 
 
 
 .background {
-  background-image: url('../src/components/pages/snow.jpg');
+  background-image: url('../src/components/images/snow.jpg');
   background-size: contain;
   border-radius: 1.5rem;
   padding: 2rem;
@@ -58,34 +45,11 @@ ul {
 }
 
 
-.li-custom a {
-  text-decoration: none;
-  color: white;
-}
-
-.li-custom a:hover {
-  color: rgb(24, 247, 4);
-}
-
-
-.li-custom.hire:hover {
-  background:  	#222222;
-}
-.li-custom.hire a {
-  color: white;
-}
-
 .green {
   color: #00FF00;
 }
 
-.header {
-  float: left;
-  display: inline;
-  padding-top: 2rem;
-  padding-left: 4rem;
-  color: #00FF00;
-}
+
 .hire {
   border-style: outset;
   color: whitesmoke;
@@ -307,7 +271,7 @@ ul {
 .hire-resume {
   width: 100%;
   padding: 0;
-  margin-top: 1.5rem;
+  margin-top: 3rem;
 }
 
 .hire-resume li {
