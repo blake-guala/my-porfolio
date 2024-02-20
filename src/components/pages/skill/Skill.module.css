@@ -1,0 +1,31 @@
+.infoHeader {
+    text-decoration-line: underline;
+    padding-bottom: 1rem;
+    text-decoration-color: #00FF00;
+    text-shadow: 0 3px 10px rgb(2, 250, 77);
+    text-decoration-thickness: 0.2rem;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .skillIcon {
+    width: 100%;
+    text-align: center;
+    margin: 2rem;
+    vertical-align: middle;
+    margin-bottom: 4rem;
+  
+  }
+
+  .skillIcon li {
+    display: inline;
+    padding: 0.5rem;
+    background-color: rgb(8, 8, 8);
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    margin: 1rem;
+    box-shadow: 0 3px 10px rgba(172, 166, 166, 0.2);
+  }

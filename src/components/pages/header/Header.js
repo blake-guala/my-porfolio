@@ -22,7 +22,7 @@ export const Header = () => {
                 </div>
             </section>
             <section className="col-sm">
-                <img className='img' src={svg} alt="background" />
+                <img className={styles.img} src={svg} alt="background" />
             </section>
         </div>
   )

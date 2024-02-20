@@ -23,7 +23,7 @@ export const Projects = () => {
                         <li>React <i className="fa-brands fa-react fa-spin"></i></li>
                         <li>Nodejs <i className="fa-brands fa-node-js"></i></li>
                     </ul>
-                    <div className='div-a'>
+                    <div className={style.divA}>
                         <a href="#!">Source code <i className="fas fa-file-code"></i></a>
                     {/* </div> */}
                 </div>

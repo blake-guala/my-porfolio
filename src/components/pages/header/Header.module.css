@@ -63,6 +63,14 @@
     border-radius: 0.3rem;
     box-shadow: 0 3px 10px rgb(2, 250, 77);
   }
+
+  .img {
+    height: 16rem;
+    width: 18rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
   
   .resume a{
     color: rgb(6, 150, 6);

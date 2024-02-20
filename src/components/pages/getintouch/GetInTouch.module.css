@@ -68,3 +68,21 @@
     background-color: #02fa02;
     box-shadow: 0 3px 10px rgb(2, 250, 77);
   }
+
+ 
+
+  .inputCustom {
+    background-color: rgb(15, 15, 15);
+    height: 2rem;
+    width: 100%;
+    padding: 1rem;
+    border: #000000;
+  }
+
+  .messageBody {
+    height: 6rem;
+  }
+  
+  .inputCustom:focus {
+    background-color: #000000;
+  }

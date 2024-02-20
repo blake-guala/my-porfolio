@@ -6,7 +6,7 @@ export const Navbar = () => {
   const [modal, setModal] = useState(false)
 
   return (
-    <nav className='nav-custom ' >
+    <nav className={styles.navCustom} >
         <h3 className={styles.header}>ILOHAM</h3>
         <ul className={styles.ul}>
           <li className={styles.liCustom}>
