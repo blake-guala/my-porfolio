@@ -21,9 +21,9 @@ export const Navbar = () => {
           <li className={`${styles.liCustom} ${styles.hire}`}>
             <a   href="!#">contact</a>
           </li>
-          <li className={styles.liCustom} style={{color: '#00FF00', boxShadow: '0 3px 10px rgb(2, 250, 77);'}}>
+          {/* <li className={styles.liCustom} style={{color: '#00FF00', boxShadow: '0 3px 10px rgb(2, 250, 77);'}}>
             <i className="fas fa-bars"></i>
-          </li>
+          </li> */}
         </ul>
     </nav>
   )

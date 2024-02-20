@@ -3,9 +3,9 @@ import { Header } from './pages/Header'
 import { Projects } from './pages/Projects'
 import { Skill } from './pages/Skill'
 import { GetInTouch } from './pages/GetInTouch'
-import { Contact } from './pages/Contact'
-import { About } from './pages/About'
 import { Footer } from './pages/Footer'
+import { Contact } from './pages/contact/Contact'
+import { About } from './pages/about/About'
 
 export const Home = () => {
   return (
