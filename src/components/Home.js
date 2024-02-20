@@ -1,7 +1,7 @@
 import React from 'react'
 import { Header } from './pages/header/Header'
-import { Projects } from './pages/Projects'
 import { Skill } from './pages/Skill'
+import { Projects } from './pages/projects/Projects'
 import { GetInTouch } from './pages/getintouch/GetInTouch'
 import { Footer } from './pages/Footer'
 import { Contact } from './pages/contact/Contact'

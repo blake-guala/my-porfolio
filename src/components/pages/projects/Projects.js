@@ -1,23 +1,24 @@
 import React from 'react'
+import style from './Projects.module.css'
 
 export const Projects = () => {
   return (
     <div>
-    <div className='skills'>
+    <div >
         <section>
-            <div className='div-projects'>
-            <h3 className='projects info-header'> Projects </h3>
+            <div className={style.divProjects}>
+            <h3 className={`${style.projects} ${style.infoHeader}`}> Projects </h3>
             </div>
         </section>
         <div className='row '>
-            <div className="col-sm section-box left">
+            <div className={`col-sm ${style.sectionBox} ${style.left}`}>
                 {/* <div> */}
                     <h3>Contact Keeper <i className="fa fa-address-book fa-flip"></i></h3>
                     <p>An app that stores contacts, users have to login first or register before use</p>
                 {/* </div> */}
                 {/* <div> */}
-                    <ul className='listed'>
-                    <h5 className='skill'>skills</h5>
+                    <ul className={style.listed}>
+                    <h5 className={style.skill}>skills used</h5>
                         <li>Css <i className="fab fa-css3 fa-bounce"></i></li>
                         <li>React <i className="fa-brands fa-react fa-spin"></i></li>
                         <li>Nodejs <i className="fa-brands fa-node-js"></i></li>
@@ -27,32 +28,34 @@ export const Projects = () => {
                     {/* </div> */}
                 </div>
             </div>
-            <div className="col-sm section-box right">
+            <div className={`col-sm ${style.sectionBox} ${style.right}`}>
                 <h3>Github Finder <i className="fa-brands fa-github fa-flip"></i></h3>
                 <p>An app that searches for users in github</p>
-                <ul className='listed'>
-                <h5 className='skill'> skills used</h5>
+                <ul className={style.listed}>
+                <h5 className={style.skill}> skills used</h5>
                     <li>Css <i className="fab fa-css3 fa-bounce"></i></li>
                     <li>React <i className="fa-brands fa-react fa-spin"></i></li>
                     <li>GithubApi <i className="fa-brands fa-github fa-flip"></i></li>
                 </ul>
-                <div className='div-a'>
+                <div className={style.divA}>
                 <a href="#!">Source code <i className="fas fa-file-code"></i></a>
                 </div>
             </div>
         </div>
         </div>
-        <div className=" section-box bottom">
-                <h3>IT Logger App <i class="fa-solid fa-cog fa-spin"></i><i class="fa-solid fa-cog fa-spin fa-spin-reverse"></i></h3>
-                <p>An app used by IT department to track changes made. has CRUD 
-                    functionalities</p>
-                <ul className='listed'>
-                <h5 className='skill '> skills</h5>
+        <div className={`${style.sectionBox} ${style.bottom}`}>
+                <h3>IT Logger App <i className="fa-solid fa-cog fa-spin"></i>
+                    <i className="fa-solid fa-cog fa-spin fa-spin-reverse"></i>
+                </h3>
+                <p>An app used by IT department to track changes made,with CRUD 
+                    functionalities.</p>
+                <ul className={style.listed}>
+                <h5 className={style.skill}> skills</h5>
                     <li>Css <i className="fab fa-css3 fa-bounce"></i></li>
                     <li>React <i className="fa-brands fa-react fa-spin"></i></li>
                     <li>JSON Server <i className="fa fa-file" ></i> <i className="fa-solid fa-server"></i></li>
                 </ul>
-                <div className='div-a'>
+                <div className={style.divA}>
                 <a href="#!">Source code <i className="fas fa-file-code"></i></a>
                 </div>
         </div>

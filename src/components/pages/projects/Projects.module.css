@@ -1,0 +1,90 @@
+.div-projects{
+    padding-top: 4rem;
+  }
+
+  .projects {
+    margin-bottom: 4rem;
+    text-align: center;
+    font-size: 3rem;
+    color: whitesmoke;
+    border-radius: 2rem;
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+  }
+
+  .divProjects{
+    padding-top: 4rem;
+  }
+
+  .infoHeader {
+    text-decoration-line: underline;
+    padding-bottom: 1rem;
+    text-decoration-color: #00FF00;
+    text-shadow: 0 3px 10px rgb(2, 250, 77);
+    text-decoration-thickness: 0.2rem;
+  }
+
+  .listed li {
+    display: inline;
+    margin: 0.2rem;
+    vertical-align: middle;
+    /* text-align: center; */
+    padding: 0.3rem;
+    background-color: rgb(94, 91, 91);
+    border-radius: 0.3rem;
+  }
+  
+  .skill {
+    text-align: center;
+  }
+
+  .divA a{
+    margin-top: 1.8rem;
+    text-decoration: none;
+    float: right;
+    background-color: #0b830b;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    color: white;
+  }
+  .divA a:hover {
+    background-color: #0eac0e;
+    box-shadow: 0 3px 10px rgb(112, 110, 78);
+  }
+
+  .listed {
+    vertical-align: middle;
+    padding-top: 0;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+  }
+
+  .sectionBox {
+    /* border-style: inset; */
+    padding: 1rem;
+    height: 18rem;
+    box-shadow: 0 3px 10px rgba(172, 166, 166, 0.2);
+    width: fit-content;
+    border-radius: 2rem;
+    margin-bottom: 4rem;
+  }
+
+  .left {
+    margin-right: 0.5rem;
+  }
+
+  .right {
+    margin-left: 0.5rem;
+  }
+
+  .bottom {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+  }
