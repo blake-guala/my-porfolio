@@ -81,6 +81,7 @@
 
   .messageBody {
     height: 6rem;
+    color: rgb(175, 169, 169);
   }
   
   .inputCustom:focus {
