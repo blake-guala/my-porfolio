@@ -1,5 +1,5 @@
 import React from 'react'
-import { Header } from './pages/Header'
+import { Header } from './pages/header/Header'
 import { Projects } from './pages/Projects'
 import { Skill } from './pages/Skill'
 import { GetInTouch } from './pages/GetInTouch'
@@ -13,8 +13,8 @@ export const Home = () => {
         <Header/>
         <Projects/>
         <Skill/>
-        <Contact/>
         <About/>
+        <Contact/>
         <GetInTouch/>
         <hr />
         <Footer/>

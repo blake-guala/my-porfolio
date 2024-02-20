@@ -1,0 +1,78 @@
+.background {
+    background-image: url('../../images/snow.jpg');
+    background-size: contain;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    height: 20rem;
+    width: 100%;
+    background-position: inherit;
+    box-shadow: 0 3px 10px rgba(172, 166, 166, 0.2);
+  }
+
+  .green {
+    color: #00FF00;
+  }
+
+  .hireResume {
+    width: 100%;
+    padding: 0;
+    margin-top: 3rem;
+  }
+  
+  .hireResume li {
+    display: inline;
+    text-align: left;
+    padding: 0.3rem;
+    margin-top: 2rem;
+    margin-right: 1rem;
+  }
+  
+  .hireResume a {
+    text-decoration: none;
+  }
+
+  .hired {
+    background-color: #05f705;
+    border-color: #02fa02;
+    border-radius: 0.3rem;
+    box-shadow: 0 3px 10px rgb(2, 250, 77);
+    border-width: 0.1rem;
+    border-style: solid;
+  
+  }
+  
+  .hired:hover  {
+    background-color: transparent;
+  }
+  
+  .hired a:hover {
+    background-color: transparent;
+    color:  #03fd03;
+  }
+  
+  .hired a {
+    color: rgb(73, 73, 73);
+  }
+
+  .resume {
+    background-color: transparent;
+    border:  #03fd03;
+    border-style: solid;
+    border-color:  #03fd03;
+    border-width: 0.1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 3px 10px rgb(2, 250, 77);
+  }
+  
+  .resume a{
+    color: rgb(6, 150, 6);
+  }
+  .resume:hover{
+    background-color: rgb(2, 252, 2);
+  
+  }
+  
+  .resume  a:hover {
+    color: black;
+    
+  }

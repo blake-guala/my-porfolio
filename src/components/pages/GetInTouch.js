@@ -4,7 +4,7 @@ export const GetInTouch = () => {
   return (
     <div>
         <div className=" section-box bottom info form " >
-            <h4 className='info-header'>Get in Touch</h4>
+            <h4 className='info-header'>Leave a Message</h4>
             <form className='container form-custom' >
             <hr />
                 <div className="mb-3">

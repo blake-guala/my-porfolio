@@ -1,19 +1,21 @@
 import React from 'react'
-import svg from '../images/web.svg'
+import svg from '../../images/web.svg'
+import styles from './Header.module.css'
 
 export const Header = () => {
   return (
-    <div className="row background">
+    <div className={`row ${styles.background}`}>
             <section className="col-sm">
                 <h5>Hello there, <i className="fa-solid fa-hand-peace  fa-fade"></i></h5>
                 <h1> I am Iloham Livingstone Iheama.</h1>
-                <p className='green'>A FRONT END DEVELOPER.</p>
+                <br />
+                <p className={styles.green}>A FRONT END DEVELOPER.</p>
                 <div>
-                    <ul className='hire-resume'>
-                        <li className='hired'>
+                    <ul className={styles.hireResume}>
+                        <li className={styles.hired}>
                             <a href="#!">Hire me</a>
                         </li>
-                        <li className='resume'>
+                        <li className={styles.resume}>
                             <a href="#!">Resume</a>
                         </li>
                     </ul>
