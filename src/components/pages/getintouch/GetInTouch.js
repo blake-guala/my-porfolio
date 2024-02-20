@@ -1,11 +1,12 @@
 import React from 'react'
+import style from './GetInTouch.module.css'
 
 export const GetInTouch = () => {
   return (
     <div>
-        <div className=" section-box bottom info form " >
-            <h4 className='info-header'>Leave a Message</h4>
-            <form className='container form-custom' >
+        <div className={`${style.sectionBox} ${style.bottom} ${style.info} ${style.form}`} >
+            <h4 className={style.infoHeader}>Leave a Message</h4>
+            <form className={`${style.container} ${style.formCustom}`} >
             <hr />
                 <div className="mb-3">
                     <label htmlFor="name" className="form-label">Name</label>
@@ -20,7 +21,7 @@ export const GetInTouch = () => {
                     <textarea type="text" name='password' className="form-control input-custom message" 
                     placeholder='write your message...' />
                 </div>
-                <button type="submit " className="btn btn-primary button-custom button-custom ">Submit</button>
+                <button type="submit " className={`btn btn-primary ${style.buttonCustom}`}>Send</button>
             </form>
         </div>
     </div>
