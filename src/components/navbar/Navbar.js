@@ -6,6 +6,7 @@ export const Navbar = () => {
   const [modal, setModal] = useState(false)
 
   return (
+    <header>
     <nav className={styles.navCustom} >
         <h3 className={styles.header}>ILOHAM</h3>
         <ul className={styles.ul}>
@@ -26,5 +27,6 @@ export const Navbar = () => {
           </li> */}
         </ul>
     </nav>
+    </header>
   )
 }
