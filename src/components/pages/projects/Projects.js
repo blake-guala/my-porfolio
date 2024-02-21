@@ -14,7 +14,7 @@ export const Projects = () => {
             <div className={`col-sm ${style.sectionBox} ${style.left}`}>
                 {/* <div> */}
                     <h3>Contact Keeper <i className="fa fa-address-book fa-flip"></i></h3>
-                    <p>An app that stores contacts, users have to login first or register before use</p>
+                    <p>An app that stores contacts, users have to login first or register before use.</p>
                 {/* </div> */}
                 {/* <div> */}
                     <ul className={style.listed}>
@@ -30,7 +30,7 @@ export const Projects = () => {
             </div>
             <div className={`col-sm ${style.sectionBox} ${style.right}`}>
                 <h3>Github Finder <i className="fa-brands fa-github fa-flip"></i></h3>
-                <p>An app that searches for users in github</p>
+                <p>An app that searches for users in github.</p>
                 <ul className={style.listed}>
                 <h5 className={style.skill}> skills used</h5>
                     <li>Css <i className="fab fa-css3 fa-bounce"></i></li>
