@@ -12,6 +12,8 @@
 
   .skillIcon {
     width: 100%;
+    display: flex;
+    list-style: none;
     text-align: center;
     margin: 2rem;
     vertical-align: middle;
@@ -20,7 +22,6 @@
   }
 
   .skillIcon li {
-    display: inline;
     padding: 0.5rem;
     background-color: rgb(8, 8, 8);
     padding: 0.5rem;

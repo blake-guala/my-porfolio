@@ -4,8 +4,8 @@ import styles from './Header.module.css'
 
 export const Header = () => {
   return (
-    <div className={`row ${styles.background}`}>
-            <section className="col-sm">
+    <div className={` ${styles.background}`}>
+            <section className="none">
                 <h5>Hello there, <i className="fa-solid fa-hand-peace  fa-fade"></i></h5>
                 <h1> I am Iloham Livingstone Iheama.</h1>
                 <p className={styles.green}>A FRONT END DEVELOPER.</p>
@@ -20,7 +20,7 @@ export const Header = () => {
                     </ul>
                 </div>
             </section>
-            <section className="col-sm">
+            <section className='none'>
                 <img className={styles.img} src={svg} alt="background" />
             </section>
         </div>
