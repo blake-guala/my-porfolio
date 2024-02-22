@@ -18,11 +18,16 @@
 
   .socials {
     width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: center;
   }
 
   .socials li {
-    display: inline;
     text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 2rem;
     padding: 2rem;
   }
   
