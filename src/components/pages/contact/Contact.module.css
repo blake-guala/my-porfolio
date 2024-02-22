@@ -51,6 +51,7 @@
     text-decoration-color: #00FF00;
     text-shadow: 0 3px 10px rgb(2, 250, 77);
     text-decoration-thickness: 0.2rem;
+    /* line-height: 1rem; */
   }
 
   .hireMe {

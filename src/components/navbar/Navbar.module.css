@@ -1,40 +1,42 @@
-.header {
-    float: left;
-    display: inline;
-    padding-top: 2rem;
-    padding-left: 4rem;
-    color: #00FF00;
-}
+
 
 .navCustom {
   background-color:#000000;
   height: 5rem;
   position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
   z-index: +1;
   width: 100%;
   top: 0;
-  transition: all 500ms ease;
+  /* transition: all 500ms ease; */
+}
+
+
+
+.header {
+  float: left;
+  /* display: flex; */
+  padding: 1rem;
+  padding-left: 4rem;
+  color: #00FF00;
 }
 
 .liCustom {
-    display: inline;
-    margin: 2rem;
+    display: flex;
+    /* margin: 2rem; */
+    padding: 2rem;
   }
 
-  .hire {
-    border-style: outset;
-    color: whitesmoke;
-    padding: 0.6rem 2rem 0.6rem 2rem ;
-    text-align: center;
-    border-radius: 1.3rem;
-    border-width: 0.1rem;
-    border-color: grey;
-  }
 
 .ul {
     float: right;
     list-style: none;
     padding: 1.8rem;
+    display: flex;
+
   }
 
 .liCustom a {
@@ -52,4 +54,14 @@
 }
 .liCustom.hire a {
   color: white;
+}
+
+.mobile_button {
+  display: none;
+
+}
+
+.mobile_button i {
+  color: '#00FF00'; 
+
 }

@@ -17,8 +17,8 @@ export const Projects = () => {
                     <p>An app that stores contacts, users have to login first or register before use.</p>
                 {/* </div> */}
                 {/* <div> */}
+                <h5 className={style.skill}>skills used</h5>
                     <ul className={style.listed}>
-                    <h5 className={style.skill}>skills used</h5>
                         <li>Css <i className="fab fa-css3 fa-bounce"></i></li>
                         <li>React <i className="fa-brands fa-react fa-spin"></i></li>
                         <li>Nodejs <i className="fa-brands fa-node-js"></i></li>
@@ -31,8 +31,8 @@ export const Projects = () => {
             <div className={`col-sm ${style.sectionBox} ${style.right}`}>
                 <h3>Github Finder <i className="fa-brands fa-github fa-flip"></i></h3>
                 <p>An app that searches for users in github.</p>
-                <ul className={style.listed}>
                 <h5 className={style.skill}> skills used</h5>
+                <ul className={style.listed}>
                     <li>Css <i className="fab fa-css3 fa-bounce"></i></li>
                     <li>React <i className="fa-brands fa-react fa-spin"></i></li>
                     <li>GithubApi <i className="fa-brands fa-github fa-flip"></i></li>
@@ -49,8 +49,8 @@ export const Projects = () => {
                 </h3>
                 <p>An app used by IT department to track changes made,with CRUD 
                     functionalities.</p>
+                <h5 className={style.skill}> skills used</h5>
                 <ul className={style.listed}>
-                <h5 className={style.skill}> skills</h5>
                     <li>Css <i className="fab fa-css3 fa-bounce"></i></li>
                     <li>React <i className="fa-brands fa-react fa-spin"></i></li>
                     <li>JSON Server <i className="fa fa-file" ></i> <i className="fa-solid fa-server"></i></li>
