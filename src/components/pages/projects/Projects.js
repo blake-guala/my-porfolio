@@ -37,7 +37,7 @@ export const Projects = () => {
                     <li>React <i className="fa-brands fa-react fa-spin"></i></li>
                     <li>GithubApi <i className="fa-brands fa-github fa-flip"></i></li>
                 </ul>
-                <div className={style.divA}>
+                <div className={`${style.divA} ${style.divB}`}>
                 <a href="#!">Source code <i className="fas fa-file-code"></i></a>
                 </div>
             </div>
@@ -55,7 +55,7 @@ export const Projects = () => {
                     <li>React <i className="fa-brands fa-react fa-spin"></i></li>
                     <li>JSON Server <i className="fa fa-file" ></i> <i className="fa-solid fa-server"></i></li>
                 </ul>
-                <div className={style.divA}>
+                <div className={`${style.divA} ${style.divB}`}>
                 <a href="#!">Source code <i className="fas fa-file-code"></i></a>
                 </div>
         </div>

@@ -50,17 +50,19 @@
     border-radius: 1rem;
     color: white;
   }
+
   .divA a:hover {
     background-color: #0eac0e;
     box-shadow: 0 3px 10px rgb(112, 110, 78);
   }
+ 
 
   .listed {
     list-style: none;
     display: flex;
-    vertical-align: middle;
     padding-top: 0;
     text-align: center;
+    justify-content: center;
     width: 100%;
     padding-bottom: 1rem;
     margin-bottom: 0;
@@ -89,4 +91,59 @@
     margin-right: auto;
     margin-left: auto;
     display: block;
+  }
+
+  @media screen and (max-width: 767px) {
+    
+    .sectionBox {
+      height: 14rem;
+      padding: 0.5rem;
+    }
+
+    .sectionBox h3 {
+      font-size: 1.2rem;
+    }
+    .sectionBox p {
+      font-size: 1rem;
+    }
+
+    .skill {
+      font-size: 0.9rem;
+    }
+
+    .listed {
+      padding: 0;
+    }
+
+    .listed li {
+      margin: 0.2rem;
+      font-size: 0.7rem;
+      padding: 0.3rem;
+    }
+
+    .divA a{
+      margin-top: 0.4rem;
+      /* display: flex;
+      justify-content: last baseline; */
+      font-size: 0.7rem;
+      padding: 0.2rem;
+      padding-left: 0.4rem;
+      padding-right: 0.4rem;
+    }
+
+   
+
+    .divA i {
+      margin-left: 0.2rem;
+      margin-top: 0.2rem;
+    }
+
+    .listed i {
+      margin-left: 0.3rem;
+    }
+
+    .divB a {
+      margin-top: 1.9rem;
+    }
+
   }
