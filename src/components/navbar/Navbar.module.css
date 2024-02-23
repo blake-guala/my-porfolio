@@ -25,8 +25,6 @@
 }
 
 .liCustom {
-    display: flex;
-    /* margin: 2rem; */
     padding: 2rem;
   }
 
@@ -36,6 +34,7 @@
     list-style: none;
     padding: 1.8rem;
     display: flex;
+    justify-content: center;
 
   }
 
@@ -58,10 +57,54 @@
 
 .mobile_button {
   display: none;
-
 }
 
-.mobile_button i {
-  color: '#00FF00'; 
 
+
+@media screen and (max-width: 767px) {
+  .mobile_button {
+    display: block;
+    position: absolute;
+    right: 6rem;
+    cursor: pointer;
+    z-index: 20;
+  }
+
+  .mobile_button i {
+    color: rgb(66, 235, 66); 
+  
+  }
+
+  .ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    left: -100%;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 50vh;
+    transform: left 1s;
+    background-color: #000000;
+    z-index: 10;
+    transition: left 1s;
+  }
+
+  .ul li {
+    margin: 2rem;
+
+  }
+
+  .active {
+    left: 0;
+    /* margin-bottom: 4rem; */
+  }
+
+
+
+  .liCustom {
+    padding: 0;
+  }
 }
