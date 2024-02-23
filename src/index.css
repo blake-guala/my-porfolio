@@ -10,4 +10,35 @@ body {
   margin-top: 4rem;
 }
 
+@media screen and (min-width: 990px) {
+  body {
+    margin-top: 6rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+  }
+}
 
+@media screen and (max-width: 767px) {
+  body {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  section-top {
+    margin-top: 1rem;
+  }
+}
+
+
+
+
+@media screen and (max-width: 579px) {
+  body {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  section-top {
+    margin-top: 9rem;
+  }
+}

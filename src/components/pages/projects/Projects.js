@@ -43,7 +43,7 @@ export const Projects = () => {
             </div>
         </div>
         </div>
-        <div className={`${style.sectionBox} ${style.bottom}`}>
+        <div className={`${style.sectionBox} ${style.bottom} `}>
                 <h3>IT Logger App <i className="fa-solid fa-cog fa-spin"></i>
                     <i className="fa-solid fa-cog fa-spin fa-spin-reverse"></i>
                 </h3>

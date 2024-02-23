@@ -13,6 +13,7 @@ export const Navbar = () => {
   return (
     <header>
     <nav className={styles.navCustom} >
+      <div>
         <h3 className={styles.header}>ILOHAM</h3>
         <ul className={`${styles.ul} ${modal && styles.active}`}>
           <li className={styles.liCustom}>
@@ -28,9 +29,11 @@ export const Navbar = () => {
             <a   href="!#">contact</a>
           </li>
         </ul>
-        <div onClick={onToggle} className={`${styles.liCustom} ${styles.mobile_button}`}>
+      </div>
+      <div onClick={onToggle} className={`${styles.liCustom} ${styles.mobile_button}`}>
           { modal ? <i className="fa-solid fa-x"></i> :  <i  className="fas fa-bars fa-lg"></i> }
-        </div>
+      </div>
+
     </nav>
     </header>
   )
