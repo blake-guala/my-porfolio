@@ -26,8 +26,6 @@
 
 
 .header {
-  float: left;
-  /* display: flex; */
   padding: 1rem;
   padding-left: 4rem;
   margin-top: 2.5rem;
