@@ -173,6 +173,10 @@
       width: auto;
       margin: 2rem;
     }
+
+    .divA a {
+      margin-top: 1.9rem;
+    }
     .right {
       width: auto;
       margin: 2rem;
