@@ -10,7 +10,7 @@ export const Projects = () => {
             <h3 className={`${style.projects} ${style.infoHeader}`}> Projects </h3>
             </div>
         </section>
-        <div className='row '>
+        <div className={style.row}>
             <div className={`col-sm ${style.sectionBox} ${style.left}`}>
                 {/* <div> */}
                     <h3>Contact Keeper <i className="fa fa-address-book fa-flip"></i></h3>

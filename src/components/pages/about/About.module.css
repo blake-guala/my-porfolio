@@ -59,3 +59,9 @@
     height: 15rem;
     background-color: 	#080808;
   }
+
+  @media screen and (max-width: 660px) {
+    .socials a {
+      font-size: 1.5rem;
+    }
+  }

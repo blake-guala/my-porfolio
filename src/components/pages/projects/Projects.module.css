@@ -3,9 +3,9 @@
   }
 
   .projects {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     color: whitesmoke;
     border-radius: 2rem;
     text-align: center;
@@ -13,6 +13,10 @@
     margin-left: auto;
     margin-right: auto;
     text-decoration: none;
+  }
+
+  .row {
+    display: flex;
   }
 
   .divProjects{
@@ -100,6 +104,8 @@
       padding: 0.5rem;
     }
 
+
+
     .sectionBox h3 {
       font-size: 1.2rem;
     }
@@ -151,11 +157,39 @@
   }
 
   @media screen and (max-width: 660px) {
-    .bottom {
+    /* .bottom {
       width: 60%;
       margin-right: auto;
       margin-left: auto;
       display: block;
       height: 16rem;
+    } */
+
+    .row {
+      display: block;
+    }
+
+    .left {
+      width: auto;
+      margin: 2rem;
+    }
+    .right {
+      width: auto;
+      margin: 2rem;
+    }
+    .bottom {
+      width: auto;
+      margin: 2rem;
+    }
+
+    .sectionBox h3 {
+      font-size: 1rem;
+    }
+    .sectionBox p {
+      font-size: 0.8rem;
+    }
+
+    .skill {
+      font-size: 0.7rem;
     }
   }
