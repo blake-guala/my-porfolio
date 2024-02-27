@@ -19,7 +19,7 @@
     box-shadow: 0 3px 10px rgb(24, 23, 23);
     border-radius: 0.4rem;
     text-align: center;
-    height: 15rem;
+    height: auto;
     background-color:  #161626;;
   }
 
@@ -33,7 +33,7 @@
   .section-box {
     /* border-style: inset; */
     padding: 1rem;
-    height: 18rem;
+    height: fit-content;
     box-shadow: 0 3px 10px rgba(172, 166, 166, 0.2);
     width: fit-content;
     border-radius: 2rem;
@@ -63,23 +63,55 @@
   .hireMe li {
     margin: 1rem;
     text-align: center;
-    background-color: #1c1c36;;
+    /* background-color: #1c1c36; */
     margin-left: auto;
     margin-right: auto;
     width: 80%;
     display: block;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
     /* padding-top: 0.5rem; */
     padding: 0.3rem;
   }
 
-  .hireMe li a{
+  .hireMe  a{
     text-decoration: none;
     color: white;
   }
+  .hireMe  a:hover{
+    color: #00FF00;
+    box-shadow: 0 3px 10px rgb(24, 23, 23);
+
+  }
 
   .hireMe li:hover{
-    background-color: rgb(24, 24, 29);
-    box-shadow: 0 3px 10px rgb(24, 23, 23);
+    background-color: rgb(33, 33, 85);
+    color: #00FF00;
   
+  }
+
+  @media screen and (max-width: 500px) {
+
+    .info {
+      margin: 0.5rem;
+      margin-top: 1rem;
+      padding: 1rem;
+      width: 100%;
+      box-shadow: 0 3px 10px rgb(24, 23, 23);
+      border-radius: 0.4rem;
+      text-align: center;
+      height: auto;
+      background-color:  #161626;;
+    }
+
+    .infoHeader {
+     font-size: 1.9rem;
+      /* line-height: 1rem; */
+    }
+
+    .hireMe a {
+      font-size: 0.7rem;
+    }
+    .hireMe i {
+      font-size: 0.7rem;
+    }
   }
