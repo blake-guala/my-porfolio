@@ -24,13 +24,21 @@ export const Projects = () => {
                         <li>Nodejs <i className="fa-brands fa-node-js"></i></li>
                     </ul>
                     <div className={style.divA}>
-                        <a href="#!">Source code <i className="fas fa-file-code"></i></a>
+                        <ul>
+                            <li>
+                                <a href="#!">Live Site</a>
+                            </li>
+                            <li>
+                                <a href="#!">Source code <i className="fas fa-file-code"></i></a>
+                            </li>
+                        </ul>
+                        
                     {/* </div> */}
                 </div>
             </div>
             <div className={`col-sm ${style.sectionBox} ${style.right}`}>
                 <h3>Github Finder <i className="fa-brands fa-github fa-flip"></i></h3>
-                <p>An app that searches for users in github.</p>
+                <p>An app that searches for users in github, you can get users details.</p>
                 <h5 className={style.skill}> skills used</h5>
                 <ul className={style.listed}>
                     <li>Css <i className="fab fa-css3 fa-bounce"></i></li>
@@ -38,7 +46,14 @@ export const Projects = () => {
                     <li>GithubApi <i className="fa-brands fa-github fa-flip"></i></li>
                 </ul>
                 <div className={`${style.divA} ${style.divB}`}>
-                <a href="#!">Source code <i className="fas fa-file-code"></i></a>
+                        <ul>
+                            <li>
+                                <a href="#!">Live Site </a>
+                            </li>
+                            <li>
+                                <a href="#!">Source code <i className="fas fa-file-code"></i></a>
+                            </li>
+                        </ul>
                 </div>
             </div>
         </div>
@@ -56,7 +71,14 @@ export const Projects = () => {
                     <li>JSON Server <i className="fa fa-file" ></i> <i className="fa-solid fa-server"></i></li>
                 </ul>
                 <div className={`${style.divA} ${style.divB}`}>
-                <a href="#!">Source code <i className="fas fa-file-code"></i></a>
+                        <ul>
+                            <li>
+                                <a href="#!">Live Site </a>
+                            </li>
+                            <li>
+                                <a href="#!">Source code <i className="fas fa-file-code"></i></a>
+                            </li>
+                        </ul>
                 </div>
         </div>
     </div>

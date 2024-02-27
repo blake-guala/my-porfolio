@@ -1,5 +1,5 @@
 body {
-  background: 	#000000;
+  background: 	#0b0b13;
   font-family: "Fredoka", sans-serif;
   color: whitesmoke;
 }
@@ -20,8 +20,8 @@ body {
 
 @media screen and (max-width: 767px) {
   body {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     margin-top: 3rem;
   }
 
@@ -35,8 +35,8 @@ body {
 
 @media screen and (max-width: 579px) {
   body {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 
   section-top {

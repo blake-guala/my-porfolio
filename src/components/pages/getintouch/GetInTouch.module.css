@@ -43,7 +43,8 @@
     border-radius: 0.4rem;
     text-align: center;
     height: 15rem;
-    background-color: 	#080808;
+    background-color:  #161626;
+    
   }
 
   .form {
@@ -72,7 +73,7 @@
  
 
   .inputCustom {
-    background-color: rgb(15, 15, 15);
+    background-color: #1c1c36;
     height: 2rem;
     width: 100%;
     padding: 1rem;

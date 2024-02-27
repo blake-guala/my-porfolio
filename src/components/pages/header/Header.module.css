@@ -21,7 +21,7 @@
     list-style: none;
     /* width: 100%; */
     padding: 0.5rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
   }
   
   .hireResume li {
@@ -32,6 +32,8 @@
   
   .hireResume a {
     text-decoration: none;
+    font-size: 0.9rem;
+    text-shadow:  0 3px 10px rgb(2, 250, 77);
   }
 
   .hired {

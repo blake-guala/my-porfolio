@@ -48,10 +48,9 @@
   .divA a{
     margin-top: 1.8rem;
     text-decoration: none;
-    display: flexbox;
     justify-content: last baseline;
     float: right;
-    background-color: #0b830b;
+    background-color: #3b831a;
     padding: 0.3rem;
     border-radius: 1rem;
     color: white;
@@ -62,7 +61,18 @@
     background-color: #0eac0e;
     box-shadow: 0 3px 10px rgb(112, 110, 78);
   }
- 
+
+  .divA ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .divB ul {
+    margin-bottom: 0;
+  }
 
   .listed {
     list-style: none;
@@ -76,10 +86,10 @@
   }
 
   .sectionBox {
-    /* border-style: inset; */
+    background-color: #161626;
     padding: 1rem;
-    height: 18rem;
-    box-shadow: 0 3px 10px rgba(172, 166, 166, 0.2);
+    height: auto;
+    box-shadow: 0 3px 10px rgba(22, 22, 22, 0.2);
     width: fit-content;
     border-radius: 2rem;
     margin-bottom: 4rem;
@@ -106,7 +116,7 @@
     
     .sectionBox {
       height: 14rem;
-      padding: 0.5rem;
+      padding: 1rem;
     }
 
 
@@ -135,29 +145,34 @@
  
 
     .divA a{
-      margin-top: 0.4rem;
-      /* display: flex;
-      justify-content: last baseline; */
+      /* margin-top: 0.4rem; */
+    
       font-size: 0.7rem;
-      padding: 0.2rem;
+      /* padding: 0.2rem;  */
       padding-left: 0.4rem;
-      padding-right: 0.4rem;
+       padding-right: 0.4rem;
     }
 
-   
+    .sectionBox {
+      height: fit-content;
+    }
 
     .divA i {
       margin-left: 0.2rem;
       margin-top: 0.2rem;
     }
 
+    .divA ul {
+      margin-bottom: 0.2rem;
+    }
+
     .listed i {
       margin-left: 0.3rem;
     }
 
-    .divB a {
+    /* .divB a {
       margin-top: 1.9rem;
-    }
+    } */
 
   }
 
