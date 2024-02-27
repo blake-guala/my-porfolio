@@ -1,7 +1,7 @@
 .sectionBox {
     /* border-style: inset; */
     padding: 1rem;
-    height: 18rem;
+    height: auto;
     box-shadow: 0 3px 10px rgba(172, 166, 166, 0.2);
     width: fit-content;
     border-radius: 2rem;
@@ -21,6 +21,7 @@
     display: flex;
     list-style: none;
     justify-content: center;
+    padding-left: 0;
   }
 
   .socials li {
@@ -56,7 +57,7 @@
     box-shadow: 0 3px 10px rgb(24, 23, 23);
     border-radius: 0.4rem;
     text-align: center;
-    height: 15rem;
+    height: auto;
     background-color: 	#080808;
   }
 

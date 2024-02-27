@@ -48,11 +48,14 @@
   .divA a{
     margin-top: 1.8rem;
     text-decoration: none;
+    display: flexbox;
+    justify-content: last baseline;
     float: right;
     background-color: #0b830b;
     padding: 0.3rem;
     border-radius: 1rem;
     color: white;
+    width: auto;
   }
 
   .divA a:hover {
@@ -95,7 +98,9 @@
     margin-right: auto;
     margin-left: auto;
     display: block;
+    height: 18rem;
   }
+
 
   @media screen and (max-width: 768px) {
     
@@ -189,6 +194,9 @@
     .sectionBox h3 {
       font-size: 1rem;
     }
+    .sectionBox  {
+      margin-top: 5rem;
+    }
     .sectionBox p {
       font-size: 0.8rem;
     }
@@ -196,4 +204,49 @@
     .skill {
       font-size: 0.7rem;
     }
+  }
+
+  @media screen and (max-width: 387px) {
+    .left {
+      width: auto;
+      margin: 0.5rem;
+    }
+    .right {
+      width: auto;
+      margin: 0.5rem;
+    }
+    .bottom {
+      width: auto;
+      margin: 0.5rem;
+    }
+
+    .divA a {
+      margin-top: 1.9rem;
+    }
+
+    .sectionBox h3 {
+      font-size: 1rem;
+    }
+    .sectionBox li {
+      font-size: 0.6rem;
+    }
+    .sectionBox p {
+      font-size: 0.7rem;
+    }
+    .sectionBox  {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    .skill {
+      font-size: 0.7rem;
+    }
+    /* .right {
+      width: auto;
+      margin: 2rem;
+    }
+    .bottom {
+      width: auto;
+      margin: 0.5rem;
+    } */
   }

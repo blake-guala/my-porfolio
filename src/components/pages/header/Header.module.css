@@ -42,6 +42,18 @@
     border-width: 0.1rem;
     border-style: solid;
     padding: 0.5rem;
+    width: auto;
+  }
+
+  .resume {
+    background-color: transparent;
+    border:  #03fd03;
+    border-style: solid;
+    border-color:  #03fd03;
+    border-width: 0.1rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 3px 10px rgb(2, 250, 77);
+    width: auto;
   }
   
   .hired:hover  {
@@ -57,15 +69,7 @@
     color: rgb(73, 73, 73);
   }
 
-  .resume {
-    background-color: transparent;
-    border:  #03fd03;
-    border-style: solid;
-    border-color:  #03fd03;
-    border-width: 0.1rem;
-    border-radius: 0.3rem;
-    box-shadow: 0 3px 10px rgb(2, 250, 77);
-  }
+
 
   .img {
     height: 16rem;
