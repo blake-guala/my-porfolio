@@ -4,10 +4,9 @@ import styles from './Contact.module.css'
 export const Contact = () => {
   return (
     <div style={{marginTop: '3rem'}}>
-        <div>
-            <h2 className={`${styles.projects} ${styles.infoHeader} ${styles.services}`}>Contact</h2>
-        </div>
         <div className={`${styles.sectionBox} ${styles.bottom} ${styles.info}`} >
+        <h2 className={`${styles.projects} ${styles.infoHeader} ${styles.services}`}>Contact Me</h2>
+
             <ul className={styles.hireMe}>
                 <li>
                     <i className="fa-solid fa-phone"></i> <a href="tel:+2348136092010">PHONE</a>

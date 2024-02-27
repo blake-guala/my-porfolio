@@ -177,13 +177,7 @@
   }
 
   @media screen and (max-width: 660px) {
-    /* .bottom {
-      width: 60%;
-      margin-right: auto;
-      margin-left: auto;
-      display: block;
-      height: 16rem;
-    } */
+
 
     .row {
       display: block;
@@ -259,5 +253,31 @@
   }
 
   @media screen  and (max-width: 311px) {
-    
+    .sectionBox h3 {
+      font-size: 0.8rem;
+    }
+    .sectionBox li {
+      font-size: 0.4rem;
+    }
+    .sectionBox p {
+      font-size: 0.5rem;
+    }
+
+    .divA a{
+      margin-top: 0.4rem;
+      font-size: 0.5rem;
+    }
+
+    .divA a {
+      padding: 0.25rem;
+    }
+
+    .infoHeader {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .sectionBox {
+      margin-top: 1rem;
+    }
   }

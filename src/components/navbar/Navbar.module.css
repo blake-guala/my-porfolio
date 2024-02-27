@@ -150,3 +150,28 @@
 
   }
 }
+
+@media screen and (max-width: 311px) {
+  .mobile_button i {
+    font-size: 0.7rem;
+    margin-bottom: 1.6rem;
+  }
+  .mobile_button {
+    right: 1rem;
+
+  }
+
+  .header {
+    font-size: 1rem;
+    padding-left: 0.1rem;
+  }
+
+  .navCustom {
+    padding-top: 1rem;
+    height: 1.8rem;
+  }
+
+  .ul a {
+    font-size: 0.7rem;
+  }
+}

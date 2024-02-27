@@ -1,3 +1,11 @@
 .footer {
     text-align: center;
   }
+
+  @media screen  and (max-width: 311px) {
+
+    p {
+      font-size: 0.7rem;
+    }
+
+  }

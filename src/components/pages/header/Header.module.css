@@ -118,3 +118,37 @@
       display: block;
     }
   }
+
+  @media screen and (max-width: 311px) {
+    .background {
+      margin-top: 0.5rem;
+    }
+
+    .background h5 {
+      font-size: 0.7rem;
+    }
+    .background h1 {
+      font-size: 0.7rem;
+    }
+
+    .background p {
+      font-size: 0.6rem;
+    }
+
+    .hired a{
+      font-size: 0.6rem;
+    }
+    .resume a{
+      font-size: 0.6rem;
+    }
+
+    .hireResume li {
+      height: auto;
+      width: auto;
+      padding: 0;
+    }
+
+    .hireResume a {
+      padding: 0.1rem;
+    }
+  }

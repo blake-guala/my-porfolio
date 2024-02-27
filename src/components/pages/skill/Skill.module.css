@@ -39,3 +39,11 @@
     }
 
   }
+
+  @media screen  and (max-width: 311px) {
+
+    .infoHeader {
+      font-size: 0.8rem;
+    }
+
+  }

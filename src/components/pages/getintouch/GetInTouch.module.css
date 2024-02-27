@@ -1,7 +1,7 @@
 .sectionBox {
     /* border-style: inset; */
     padding: 1rem;
-    height: 18rem;
+    height: auto;
     box-shadow: 0 3px 10px rgba(172, 166, 166, 0.2);
     width: fit-content;
     border-radius: 2rem;
@@ -42,14 +42,12 @@
     box-shadow: 0 3px 10px rgb(24, 23, 23);
     border-radius: 0.4rem;
     text-align: center;
-    height: 15rem;
     background-color:  #161626;
     
   }
 
   .form {
     margin-top: 8rem;
-    height: 34rem;
     padding: 3rem;
     margin-bottom: 5rem;
   }
@@ -87,4 +85,30 @@
   
   .inputCustom:focus {
     background-color: #000000;
+  }
+
+  @media screen  and (max-width: 311px) {
+
+    .infoHeader {
+      font-size: 0.8rem;
+    }
+
+    .sectionBox {
+      margin-top: 3rem;
+    }
+
+    .formCustom label {
+      font-size: 0.6rem;
+    }
+    .formCustom ::placeholder {
+      font-size: 0.6rem;
+    }
+
+    .buttonCustom {
+      font-size: 0.7rem;
+    }
+
+    .form {
+      padding: 1rem;
+    }
   }

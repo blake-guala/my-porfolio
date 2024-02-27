@@ -115,3 +115,29 @@
       font-size: 0.7rem;
     }
   }
+
+  @media screen  and (max-width: 311px) {
+
+    .infoHeader {
+      padding: 1rem;
+      font-size: 0.8rem;
+    }
+
+    .hireMe {
+      padding-top: 0;
+    }
+
+    .hireMe a {
+      font-size: 0.6rem;
+      padding-left: 0.3rem;
+    }
+    .hireMe li {
+      margin: 0.3rem;
+      width: 90%;
+    }
+    .bottom {
+      padding: 0.2rem;
+      height: auto;
+    }
+
+  }
