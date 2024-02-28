@@ -1,18 +1,20 @@
 import React, { useRef } from 'react'
 import style from './GetInTouch.module.css'
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify'
 
 
 export const GetInTouch = () => {
-
-    
 
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
 
-        
+         const id = toast.loading("Please wait...", {
+            theme: "dark"
+         })
+
     
         emailjs
           .sendForm('service_o2j7wbh', 'template_dex67mp', form.current, {
@@ -21,9 +23,33 @@ export const GetInTouch = () => {
           .then(
             () => {
               console.log('SUCCESS!');
+              toast.dismiss(id.current);
+              toast.success('Message Sent', {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: false,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+                // transition: Bounce,
+                })
+                
             },
             (error) => {
               console.log('FAILED...', error.text);
+              toast.dismiss(id.current);
+              toast.error('An error occurred!', {
+                position: "top-right",
+                autoClose: 5000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                pauseOnHover: true,
+                draggable: true,
+                progress: undefined,
+                theme: "dark",
+                });
             },
           );
       };
