@@ -17,16 +17,16 @@ export const Navbar = () => {
         <h3 className={styles.header}>ILOHAM</h3>
         <ul className={`${styles.ul} ${modal && styles.active}`}>
           <li className={styles.liCustom}>
-            <a className='a'  href="/">Home</a>
+            <a className='#'  href="/">Home</a>
           </li>
           <li className={styles.liCustom}>
             <a  href="#projects">Projects</a>
           </li>
           <li className={styles.liCustom}>
-            <a  href="!#">About</a>
+            <a  href="#about">About</a>
           </li>
           <li className={`${styles.liCustom} `}>
-            <a   href="!#">contact</a>
+            <a   href="#contact">contact</a>
           </li>
         </ul>
       </div>

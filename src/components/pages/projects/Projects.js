@@ -4,7 +4,7 @@ import style from './Projects.module.css'
 export const Projects = () => {
   return (
     <div>
-    <div >
+    <div id='projects' >
         <section>
             <div className={style.divProjects}>
             <h3 className={`${style.projects} ${style.infoHeader}`}> Projects </h3>

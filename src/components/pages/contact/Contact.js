@@ -3,7 +3,7 @@ import styles from './Contact.module.css'
 
 export const Contact = () => {
   return (
-    <div style={{marginTop: '3rem'}}>
+    <div id='contact' style={{marginTop: '3rem'}} >
         <div className={`${styles.sectionBox} ${styles.bottom} ${styles.info}`} >
         <h2 className={`${styles.projects} ${styles.infoHeader} ${styles.services}`}>Contact Me</h2>
 
