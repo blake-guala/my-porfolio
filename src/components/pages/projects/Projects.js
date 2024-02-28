@@ -29,7 +29,9 @@ export const Projects = () => {
                                 <a href="#!">Live Site</a>
                             </li>
                             <li>
-                                <a href="#!">Source code <i className="fas fa-file-code"></i></a>
+                                <a href="https://github.com/blake-guala/contacts-keeper-application-" target='_blank' rel="noreferrer">
+                                    Source code <i className="fas fa-file-code"></i>
+                                </a>
                             </li>
                         </ul>
                         
@@ -51,7 +53,10 @@ export const Projects = () => {
                                 <a href="#!">Live Site </a>
                             </li>
                             <li>
-                                <a href="#!">Source code <i className="fas fa-file-code"></i></a>
+                                <a href="https://github.com/blake-guala/Github-User-finder-App" target='_blank'  rel="noreferrer">
+                                    Source code 
+                                <i className="fas fa-file-code"></i>
+                                </a>
                             </li>
                         </ul>
                 </div>
@@ -76,7 +81,9 @@ export const Projects = () => {
                                 <a href="#!">Live Site </a>
                             </li>
                             <li>
-                                <a href="#!">Source code <i className="fas fa-file-code"></i></a>
+                                <a href="https://github.com/blake-guala/it-logger-app" target='_blank' rel="noreferrer">
+                                    Source code <i className="fas fa-file-code"></i>
+                                </a>
                             </li>
                         </ul>
                 </div>

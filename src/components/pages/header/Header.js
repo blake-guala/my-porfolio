@@ -12,7 +12,7 @@ export const Header = () => {
                 <div>
                     <ul className={styles.hireResume}>
                         <li className={styles.hired}>
-                            <a href="#!">Hire me</a>
+                            <a href="#hire">Hire me</a>
                         </li>
                         <li className={styles.resume}>
                             <a href="#!">Resume</a>

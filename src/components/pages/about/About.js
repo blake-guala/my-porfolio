@@ -11,13 +11,19 @@ export const About = () => {
             </p>
             <ul className={styles.socials}> 
                 <li>
-                    <a href="#!"><i className="fa-brands fa-twitter"></i></a>
+                    <a href="https://twitter.com/arusi_ogologo" target="_blank" rel="noreferrer noopener">
+                        <i className="fa-brands fa-twitter"></i>
+                    </a>
                 </li>
                 <li>
-                    <a href="#!"><i className="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://wa.me/qr/E7QILXD2ROI5K1" target="_blank" rel="noreferrer noopener">
+                        <i className="fa-brands fa-whatsapp"></i>
+                        </a>
                 </li>
                 <li>
-                    <a href="#!"><i className="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.linkedin.com/in/iloham-livingstone-victory-233507240/" target="_blank" rel="noreferrer noopener">
+                        <i className="fa-brands fa-linkedin"></i>
+                    </a>
                 </li>
                 {/* <li>
                     <a href=""><i class="fa-brands fa-twitter"></i></a>
