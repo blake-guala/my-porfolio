@@ -1,7 +1,22 @@
 import React from 'react'
 import style from './Projects.module.css'
+import { toast } from 'react-toastify'
 
 export const Projects = () => {
+    const onClick = (e) => {
+        
+        toast.warn('Not hosted Yet!', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+            // transition: Bounce,
+            });
+    }
   return (
     <div>
     <div id='projects' >
@@ -26,10 +41,10 @@ export const Projects = () => {
                     <div className={style.divA}>
                         <ul>
                             <li>
-                                <a href="#!">Live Site</a>
+                                <a onClick={onClick} href="#!">Live Site</a>
                             </li>
                             <li>
-                                <a href="https://github.com/blake-guala/contacts-keeper-application-" target='_blank' rel="noreferrer">
+                                <a  href="https://github.com/blake-guala/contacts-keeper-application-" target='_blank' rel="noreferrer">
                                     Source code <i className="fas fa-file-code"></i>
                                 </a>
                             </li>
@@ -50,7 +65,7 @@ export const Projects = () => {
                 <div className={`${style.divA} ${style.divB}`}>
                         <ul>
                             <li>
-                                <a href="#!">Live Site </a>
+                                <a onClick={onClick} href="#!">Live Site </a>
                             </li>
                             <li>
                                 <a href="https://github.com/blake-guala/Github-User-finder-App" target='_blank'  rel="noreferrer">
@@ -78,7 +93,7 @@ export const Projects = () => {
                 <div className={`${style.divA} ${style.divB}`}>
                         <ul>
                             <li>
-                                <a href="#!">Live Site </a>
+                                <a onClick={onClick} href="#!">Live Site </a>
                             </li>
                             <li>
                                 <a href="https://github.com/blake-guala/it-logger-app" target='_blank' rel="noreferrer">

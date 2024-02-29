@@ -1,8 +1,21 @@
 import React from 'react'
 import svg from '../../images/web.svg'
 import styles from './Header.module.css'
+import { toast } from 'react-toastify'
 
 export const Header = () => {
+    const onClick = () => {
+        toast.warn('Resume not updated yet!', {
+            position: "top-right",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+            });
+    }
   return (
     <div className={` ${styles.background}`}>
             <section className="none">
@@ -15,7 +28,7 @@ export const Header = () => {
                             <a href="#hire">Hire me</a>
                         </li>
                         <li className={styles.resume}>
-                            <a href="#!">Resume</a>
+                            <a onClick={onClick}  href="#!">Resume</a>
                         </li>
                     </ul>
                 </div>

@@ -11,7 +11,7 @@ export const GetInTouch = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-         const id = toast.loading("Please wait...", {
+         const id = toast.loading("Sending...", {
             theme: "dark"
          })
 
@@ -24,7 +24,7 @@ export const GetInTouch = () => {
             () => {
               console.log('SUCCESS!');
               toast.dismiss(id.current);
-              toast.success('Message Sent', {
+              toast.success('Sent', {
                 position: "top-right",
                 autoClose: 5000,
                 hideProgressBar: false,
