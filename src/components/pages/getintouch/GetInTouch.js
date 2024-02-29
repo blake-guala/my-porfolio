@@ -15,6 +15,8 @@ export const GetInTouch = () => {
             theme: "dark"
          })
 
+         
+
     
         emailjs
           .sendForm('service_o2j7wbh', 'template_dex67mp', form.current, {
@@ -35,7 +37,7 @@ export const GetInTouch = () => {
                 theme: "dark",
                 // transition: Bounce,
                 })
-                
+                form.current.reset()
             },
             (error) => {
               console.log('FAILED...', error.text);
