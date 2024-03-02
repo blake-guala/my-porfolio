@@ -66,13 +66,13 @@ export const GetInTouch = () => {
                     <input type="text"  name='user_name' className={` ${style.inputCustom}`} placeholder='your name' required/>
                 </div>
                 <div className="mb-3">
-                    <label htmlFor="email" className="form-label">Email</label>
+                    <label htmlFor="email" className="form-label" >Email</label>
                     <input type="email" name='user_email' className={` ${style.inputCustom}`}   placeholder='your email' required />
                 </div>
                 <div className="mb-3">
                     <label htmlFor="message" className="form-label ">Message</label>
                     <textarea type="text" name='message' className={` ${style.inputCustom} ${style.messageBody} `}  
-                    placeholder='write your message...' required />
+                    placeholder='write your message...' required   />
                 </div>
                 <button type="submit " className={`btn btn-primary ${style.buttonCustom}`}>Send</button>
             </form>
