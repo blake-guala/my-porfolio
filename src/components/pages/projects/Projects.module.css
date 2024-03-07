@@ -26,8 +26,8 @@
   .infoHeader {
     text-decoration-line: underline;
     padding-bottom: 1rem;
-    text-decoration-color: #00FF00;
-    text-shadow: 0 3px 10px rgb(2, 250, 77);
+    text-decoration-color:  #8168e6;
+    text-shadow: 0 3px 10px  #8168e6;
     text-decoration-thickness: 0.2rem;
   }
 
@@ -37,7 +37,7 @@
     vertical-align: middle;
     /* text-align: center; */
     padding: 0.3rem;
-    background-color: rgb(94, 91, 91);
+    background-color: #403372;
     border-radius: 0.3rem;
   }
   
@@ -50,7 +50,7 @@
     text-decoration: none;
     justify-content: last baseline;
     float: right;
-    background-color: #3b831a;
+    background-color:  #8168e6;
     padding: 0.3rem;
     border-radius: 1rem;
     color: white;
@@ -58,7 +58,7 @@
   }
 
   .divA a:hover {
-    background-color: #0eac0e;
+    background-color: #8b77d8;;
     box-shadow: 0 3px 10px rgb(112, 110, 78);
   }
 

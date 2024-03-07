@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import styles from './Navbar.module.css'
+import toggle from '../images/toggle.svg'
+import x from '../images/x.svg'
 
 export const Navbar = () => {
   // eslint-disable-next-line
@@ -31,7 +33,7 @@ export const Navbar = () => {
         </ul>
       </div>
       <div onClick={onToggle} className={`${styles.liCustom} ${styles.mobile_button}`}>
-          { modal ? <i className="fa-solid fa-x"></i> :  <i  className="fas fa-bars fa-lg"></i> }
+          { modal ? <img src={x} alt="return" /> :  <img src={toggle}  alt="menu" /> }
       </div>
 
     </nav>

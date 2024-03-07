@@ -6,8 +6,10 @@ export const About = () => {
     <div id='about' style={{marginTop: '4rem', marginLeft: 'auto', marginRight: 'auto', display: 'block'}} > 
             <div className= {` ${styles.sectionBox} ${styles.bottom} ${styles.info} ` }  >
             <h4 className={styles.infoHeader}>About me</h4>
-            <p>As an Developer, mathematician and Medical scientist my first love will always be solving problems
-                . The web being a place i love the most.
+            <p>As an Developer, mathematician and Medical scientist my first love will always be solving problems {''}
+                <i className="fas fa-book-reader" style={{color: "#B197FC"}}></i>
+                . The web being a place i love the most. i also play sports like basketball {''}
+                <i className="fa-solid fa-basketball fa-bounce" style={{color: "#B197FC"}}></i>.
             </p>
             <ul className={styles.socials}> 
                 <li>

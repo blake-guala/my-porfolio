@@ -1,5 +1,5 @@
 import React from 'react'
-import svg from '../../images/web.svg'
+import svg from '../../images/webb.svg'
 import styles from './Header.module.css'
 import { toast } from 'react-toastify'
 

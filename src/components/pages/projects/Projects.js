@@ -69,7 +69,7 @@ export const Projects = () => {
                             </li>
                             <li>
                                 <a href="https://github.com/blake-guala/Github-User-finder-App" target='_blank'  rel="noreferrer">
-                                    Source code 
+                                    Source code {' '}
                                 <i className="fas fa-file-code"></i>
                                 </a>
                             </li>
